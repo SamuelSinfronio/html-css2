@@ -1,0 +1,196 @@
+.header{
+
+    border-bottom: 0 solid #ddd;     
+    padding: 28px 0;
+    background-color: var(--color2);
+    
+    }
+    
+    .header__container{
+    
+    max-width: 1220px;
+    margin: 0 auto;
+    justify-content: space-between;
+    display: flex;
+    width: 92%;
+    align-items: center;
+    display: flex;
+    
+    }
+    
+    .header__inicio{
+    
+    gap: 25px;
+    align-items: center;
+    display: flex;
+    
+    }
+    
+    .header__logo{
+    
+    left: -18px;
+    position: relative;
+    width: 117px;
+    
+    }
+    
+    .header__inicio a{
+    
+    text-decoration: none;
+    color: var(--color4);
+    font-weight: normal;
+    margin-left: -16px;
+    margin-right: 14px;
+    font-size: 96;
+    
+    }
+    
+    .header__button1{
+    
+    font-size: 1rem;
+    padding: 8px 15px;
+    font-weight: normal;
+    border-radius: 4px;
+    color: var(--color1);
+    text-decoration: none;
+    font-weight: bold;
+    
+    }
+    
+    .header__button2{
+        
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: normal;
+    color: var(--color2);
+    border-radius: 4px;
+    font-weight: bold;
+    padding: 10px 26px;
+    background-color: var(--color1);
+    
+    }
+    
+    .Middle{
+    padding: 80px 20px;
+    text-align: center;
+    }
+    
+    .Middle__titulo{
+    
+    top: -25px;
+    position: relative; 
+    font-size: 46px;
+    color: var(--color4);
+        
+    }
+    
+    .Middle__texto{
+    
+    position: relative; 
+    top: -15px;
+    padding: 2px;
+    font-size: 19px;
+    color: var(--color4);
+    
+    }
+    
+    .banner {
+        
+    gap: 38px;
+    justify-content: center;
+    padding: 2px;
+    align-items: center;
+    display: flex;
+    
+    }
+    
+    .banner__restaurante {
+    
+    height: 220px;
+    color: var(--color2);
+    display: flex;
+    border-radius: 20px;
+    background-color: var(--color1);
+    flex-direction: column;
+    padding: 20px;
+    position: relative; 
+    justify-content: space-between;
+    top: -25px;
+    align-items: center;
+    width: 400px;
+    
+    }
+    
+    .banner__mercado {
+        
+    height: 220px; 
+    border-radius: 20px; 
+    color: var(--color2);
+    display: flex;
+    background-color: var(--color7); 
+    justify-content: space-between;
+    width: 400px;
+    position: relative; 
+    top: -25px;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    
+    }
+    
+    .banner__tituloMercado,.banner__tituloRestaurante {
+    
+    display: flex;
+    font-weight: bold;
+    font-weight: bold;
+    font-size: 2.2rem;
+    width: 100%; 
+    justify-content: flex-start;
+    
+    }
+    
+    .banner__buttonRestaurante,
+    .banner__buttonMercado {
+    
+    color: var(--color2);
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1rem;
+    
+    }
+    
+    .banner__buttonRestaurante {
+    
+    background-color: var(--color5);
+    position: relative;
+    right: 107px;
+    top: 89px;
+    
+    }
+    
+    .banner__buttonMercado {
+    
+    background-color: var(--color6);
+    top: 89px;
+    right: 107px;
+    position: relative;
+    
+    }
+    
+    .banner__imgRestaurante{
+    
+    top: -43px;
+    left: 90px;  
+    position: relative;
+    
+    }
+    .banner__imgMercado{
+        
+    top: -62px;
+    left: 90px;
+    position: relative;
+    
+    }
+    
